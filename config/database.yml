@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: web_report_development
+  pool: 5
+  username: postgres
+  password: 1wax2qsz
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: web_report_test
+  pool: 5
+  username: postgres
+  password: 1wax2qsz
+  host: localhost
